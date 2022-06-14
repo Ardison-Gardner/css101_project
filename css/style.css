@@ -21,12 +21,26 @@ ul {
 li {
   float: right;
 }
+h1 {
+  font-size: 60px;
+  color: #fff;
+}
+h2 {
+  font-size: 25px;
+  padding: 30px 0;
+  font-weight: lighter;
+  color: #fff;
+}
 .navbar-link {
   display: block;
   text-align: center;
   padding: 16px;
   text-decoration: none;
   text-transform: uppercase;
+}
+.main-content {
+    display: inline-block;
+    padding: 200px;
 }
 #navbar-logo {
   display: inline;
