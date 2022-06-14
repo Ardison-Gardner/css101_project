@@ -22,7 +22,12 @@ li {
   float: right;
 }
 h1 {
-  font-size: 60px;
+  font-size: 64px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
   color: #fff;
 }
 h2 {
