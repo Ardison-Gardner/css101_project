@@ -10,7 +10,7 @@ nav {
   display: block;
   overflow: auto;
   background-color: #fff;
-  height: 70px;
+  height: 100px;
   padding: 10px;
 }
 ul {
@@ -39,9 +39,12 @@ h2 {
 .navbar-link {
   display: block;
   text-align: center;
-  padding: 16px;
   text-decoration: none;
   text-transform: uppercase;
+  margin-right: 32px;
+  margin-left: 32px;
+  font-size: 20px;
+  line-height: 100px;
 }
 .main-content {
     display: inline-block;
@@ -50,6 +53,7 @@ h2 {
 #navbar-logo {
   display: inline;
   float: left;
+  margin-top: 16px;
   margin-left: 5%
 }
 #main {
@@ -62,4 +66,10 @@ h2 {
 #mask {
   background-color: rgba(0, 0, 0, 0.75);
   height: 100%;
+}
+#contact-us {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
 }
